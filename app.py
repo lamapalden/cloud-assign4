@@ -12,7 +12,7 @@ def fahrenheit_from(celsius):
     """Convert Celsius to Fahrenheit degrees."""
     fahrenheit = float(celsius) * 9 / 5 + 32
     fahrenheit = round(fahrenheit, 3)  # Round to three decimal places
-    return str(fahrenheit)
+    return str(fahrenheit) + " degree Fahrenheit"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8081, debug=True)
